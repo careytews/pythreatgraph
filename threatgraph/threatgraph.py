@@ -4,8 +4,7 @@ import ipaddress
 import time
 
 class Gaffer(gaffer.Gaffer):
-    def __init__(self):
-        url = "https://analytics.trustnetworks.com/gaffer-threat"
+    def __init__(self, url):
         gaffer.Gaffer.__init__(self, url)
         self.use_cert()
 
