@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/trustnetworks/pythreatgraph",
     packages=setuptools.find_packages(),
     install_requires=[
-        'requests', 'gaffer'
+        'requests'
     ],
     classifiers=(
         "Programming Language :: Python :: 3",
