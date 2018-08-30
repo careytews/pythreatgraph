@@ -6,7 +6,6 @@ import time
 class Gaffer(gaffer.Gaffer):
     def __init__(self, url):
         gaffer.Gaffer.__init__(self, url)
-        self.use_cert()
 
     def get_all_ips(self):
         op = gaffer.GetAllElements(entities=["ip"], edges=None)
